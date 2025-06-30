@@ -1,0 +1,23 @@
+{
+  "name": "cloudflare-workers-sample",
+  "version": "1.0.0",
+  "description": "cloudflare-workers-sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "copyfiles -u 1 src/**/* dist/",
+    "serve": "live-server dist",
+    "dev": "npm run build && npm run serve",
+    "clean": "rm -rf dist && mkdir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "copyfiles": "^2.4.1",
+    "live-server": "^1.2.2",
+    "sass": "^1.89.2",
+    "uglify-js": "^3.19.3"
+  }
+}
