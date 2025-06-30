@@ -3,5 +3,5 @@
     "compatibility_date": "2022-04-05",
     "assets": {
         "directory": "./dist"
-    }
+    },"name": "static-website"
 }
